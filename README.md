@@ -12,10 +12,11 @@
 
 /api/users/
 
-| API | Description |
-| GET .../ | get all users |
-| POST .../signup | sign up and log in user |
-| POST .../login | login in user |
+| API               | Description               |
+| ----------------- | ------------------------- |
+| GET .../          | get all users             |
+| POST .../signup   | sign up and log in user   |
+| POST .../login    | login in user             |
 
 /api/sessions/
 - GET .../              get all sessions
