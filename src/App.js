@@ -7,7 +7,7 @@ import {
 } from 'react-router-dom';
 
 import Users from './user/pages/Users';
-import NewPlace from './packages/pages/NewPackage';
+import NewPackage from './packages/pages/NewPackage';
 
 const App = () => {
   return (
@@ -17,7 +17,7 @@ const App = () => {
           <Users />
         </Route>
         <Route path="/packages/new" exact>
-          <NewPlace />
+          <NewPackage />
         </Route>
         <Redirect to="/" />
       </Switch>
