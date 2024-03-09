@@ -1,7 +1,9 @@
 import React from "react";
 
+import './Description.css'
+
 const Description = () => {
-    return <h2>This is the description of the SPA</h2>
+    return <h2>This is the WLBT for KRAV MAGA!</h2>
 };
 
 export default Description;

@@ -6,7 +6,9 @@ import {
   Switch
 } from 'react-router-dom';
 
-import Users from './user/pages/Users';
+import Description from './user/components/Description';
+import Offers from './user/pages/Offers';
+import Sessions from './user/pages/Sessions';
 import NewPackage from './packages/pages/NewPackage';
 
 const App = () => {
@@ -14,7 +16,9 @@ const App = () => {
     <Router>
       <Switch>
         <Route path="/" exact>
-          <Users />
+          <Description />
+          <Offers />
+          <Sessions />
         </Route>
         <Route path="/packages/new" exact>
           <NewPackage />
